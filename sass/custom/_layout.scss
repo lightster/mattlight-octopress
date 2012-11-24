@@ -5,6 +5,43 @@ header[role="banner"] h2 {
 	display: inline;
 }
 
+
+ul.portfolio
+{
+	list-style-type: none;		
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio li
+{
+	width: 220px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	float: left;
+	text-align: center;
+}
+
+.portfolio img
+{
+	 width: 180px; 
+	 height: 200px; 
+	 border: 1px solid #000000;
+}
+
+.portfolio span
+{
+	display: block;
+	text-decoration: underline;
+}
+
+.portfolio a
+{
+	white-space: normal;
+}
+
+
+
 //$header-font-size: 1em;
 //$header-padding-top: 1.5em;
 //$header-padding-bottom: 1.5em;
