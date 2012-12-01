@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "aso"
+ssh_user       = "bond"
 ssh_port       = "22"
-document_root  = "~/com/mattlight/test/public/"
+document_root  = "/var/www/html/com.mattlight/public/"
 rsync_delete   = false
 deploy_default = "rsync"
 
